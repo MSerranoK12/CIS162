@@ -24,5 +24,6 @@ p{padding-left: 10px}
 footer{background-color: #4dabfd;
     color: #fcfcfc;
     font-size: .75em;
-    text-align: center;
+    text-align: left;
+    padding: 6apx;
     width: 350px}
