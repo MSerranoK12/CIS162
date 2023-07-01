@@ -5,12 +5,13 @@ Date: 2023-6-30
 Filename: main.css
 */
 /*HTML and Body Styles*/
-body{background-color: #f0f0f0;font-family: 'Trebuchet MS', Helvetica, sans-serif;}
+body{background-color: #f0f0f0;font-family: 'Trebuchet MS', Helvetica, sans-serif; padding: 20px}
 header
 h1, h2 {background-color: #4dabfd;
     color:#fcfcfc;
     font-size: 1.2em;
-    letter-spacing: .1em}
+    letter-spacing: .1em;
+    padding-left: 5px}
 h1{color: #1a80e6;
     text-align: center;
     letter-spacing: .1em}
@@ -19,9 +20,11 @@ nav>ul{line-height: 1.5em;
     list-style-type: circle;
     padding-left: 3px;}
 section{background-color: #dce3ea}
+p{padding-left: 10px}
 footer{background-color: #4dabfd;
     color: #fcfcfc;
     font-size: .75em;
-    text-align: center}
+    text-align: center;
+    width: 250px}
 
 
