@@ -56,10 +56,13 @@ margin-left: 5px;}
 /* Left Column Styles*/
 section#leftColumn {clear: left;
 float: left;
-width: 55%;}
+width: 45%;
+padding: 5px;
+margin-top: 10px;}
 /*Right Column Styles*/
 section#rightColumn {float: left;
-width: 45%;}
+width: 45%;
+margin-top: 10px;}
 footer{background-color: #4dabfd;
 color: #fcfcfc;
 font-size: .75em;
