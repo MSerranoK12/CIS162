@@ -5,16 +5,14 @@ Date: 2023-7-8
 Filename: main.css
 */
 /*HTML and Body Styles*/
-
 address, article, aside, blockquote, body, cite, div, h1, h2, footer, header, img, main, nav, section, section1, {
 display: block;
 background: transparent;
-font-size: 100%;
+font-size: 100;
 margin: 0;
 padding: 0;
 vertical-align: baseline;
 box-sizing: border-box;}
-
 body {
 background-color: #f0f0f0;
 font-family: 'Trebuchet MS', Helvetica, sans-serif;
@@ -24,7 +22,6 @@ margin-right: auto;
 max-width: 960px;
 min-width: 640px;
 width: 95%;}
-
 h1{
 color: #1a80e6;
 text-align: center;
@@ -32,7 +29,6 @@ letter-spacing: .3em;
 text-align: center;
 font-size: 4em;
 margin-bottom: 10px}
-
 nav>ul{
 line-height: 1.5em;
 list-style-type: none;
@@ -40,7 +36,6 @@ margin: 0;
 padding: 0;
 overflow: hidden;
 background-color: darkgray;}
-
 nav>ul>li a {
 float:left;
 display: block;
@@ -49,11 +44,8 @@ text-align: center;
 padding: 12px 14px;
 text-decoration: none;
 font-size: 1.5em}
-
 nav>ul>li a:hover:not(.active) {background-color: #1a22e6;}
-
 .active {background-color: dodgerblue;}
-
 h2 {
 background-color: #4dabfd;
 color:#fcfcfc;
@@ -63,29 +55,20 @@ letter-spacing: .1em;
 text-align: center;
 overflow: hidden;
 margin-right: 30px;
-padding: 0;
-}
-
+padding: 0;}
 p {
 background-color: none;
 margin-right: 50px;
-margin-left: 5px;
-}
-
+margin-left: 5px;}
 /* Left Column Styles*/
 section#leftColumn {
 clear: left;
 float: left;
-width: 55%;
-}
-
+width: 55%;}
 /*Right Column Styles*/
 section#rightColumn {
 float: left;
-width: 45%;
-}
-
-
+width: 45%;}
 footer{
 background-color: #4dabfd;
 color: #fcfcfc;
@@ -93,6 +76,4 @@ font-size: .75em;
 text-align: center;
 clear: left;}
 footer>section#contactInfo{
-float: inherit;
-
-}
+float: inherit;}
